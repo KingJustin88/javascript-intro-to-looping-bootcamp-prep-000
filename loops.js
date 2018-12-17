@@ -13,7 +13,7 @@ function forLoop(array){
 
 function whileLoop(n){
   let countdown = n
-    while(countdown < 0){
+    while(countdown > 0){
       console.log(--countdown)
     }
   return "done"
@@ -21,7 +21,7 @@ function whileLoop(n){
   
 function doWhileLoop(array){
  function incrementVariable() {
-    return Math.random() >= 0.5
+    return Math.random() <= 0.5
   }
    do {
     array.pop();
