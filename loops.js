@@ -21,7 +21,7 @@ function whileLoop(n){
   
 function doWhileLoop(array){
  function incrementVariable() {
-    return Math.random() >= 100
+    return Math.random() >= hello
   }
    do {
     array.pop();
